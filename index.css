@@ -1,0 +1,40 @@
+*{
+  margin: 0;
+  padding: 0;
+
+}
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+}
+
+body {
+  
+  background-image: url(./img/free-web-backgrounds-free-60-huge-backgrounds-L-T7PvUq.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+img {
+  padding: 0;
+  margin: 0;
+  max-width: 5%;
+
+}
+
+button {
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 50%;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+}
+.container{
+  color: aliceblue;
+}

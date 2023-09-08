@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+
+.center-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.center{
+    padding: 5%;
+    border: 2px solid;
+    background-color: aqua;
+    border-radius: 10px;
+    height: auto;
+    max-width: auto%;
+}
+    
+    
+/* } */
+/* .row{
+    padding: 0;
+    text-align:center;
+} */
+button{
+    /* width: auto; */
+    background-color: rgb(92, 92, 189);
+    padding: 2px;
+    max-resolution: 2px;
+    color: antiquewhite;
+}
+input{
+    padding: 2px;
+    max-width: 10%;
+}
+
+h4{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    display: flex;
+    align-items: center;
+    
+}
+footer{
+    max-width: 100%;
+    margin: 0;
+}
+body {
+  
+    background-image: url(../img/free-web-backgrounds-free-60-huge-backgrounds-L-T7PvUq.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  

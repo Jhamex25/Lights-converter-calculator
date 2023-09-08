@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sample Calculator</title>
+  <link rel="stylesheet" href="index.css">
+
+
+</head>
+
+<body>
+  <!-- <ul class="nav nav-pills">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Active</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="../09-01-23/index.html">Calculator</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+        </li>
+      </ul>
+    
+    <div> -->
+
+  </div>
+  <div class="container"><br>
+    <div id="calculator">
+      <h1>Calculator</h1>
+      <input type="text" id="num" readonly>
+      <button class="btn" onclick="clr();">C</button>
+      <button class="btn" onclick="del();">del</button>
+      <button class="btn" onclick="sqrt()">√</button>
+      <button class="btn" onclick="prcnt()">%</button>
+
+      <button onclick="one(7);">7</button>
+      <button onclick="one(8);">8</button>
+      <button onclick="one(9);">9</button>
+      <button class="btn" onclick="plus('/');">/</button>
+
+      <button onclick="one(4);">4</button>
+      <button onclick="one(5);">5</button>
+      <button onclick="one(6);">6</button>
+      <button class="btn" onclick="plus('*');">*</button>
+
+      <button onclick="one(1);">1</button>
+      <button onclick="one(2);">2</button>
+      <button onclick="one(3);">3</button>
+      <button class="btn" onclick="plus('-');">-</button>
+
+      <button onclick="one(0);">0</button>
+      <button class="btn" onclick="plus('.');">.</button>
+
+
+      <button class="btn" onclick="plus('+');">+</button>
+      <button class="btn" onclick="equal();">=</button>
+    </div>
+    <div class="navigator">
+      <button class="back_btn"><a href="../index.html"> Lights</a></button>
+      <button class="back_btn"><a href="../conversion/index.html"> Coverter</a></button>
+    </div>
+  </div>
+  <script src="index.js"></script>
+</body>
+
+</html>
